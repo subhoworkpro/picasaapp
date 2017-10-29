@@ -3,10 +3,12 @@ module.exports = function(app) {
   var gallery = require('../controllers/galleryController');
 
   // todoList Routes
-  app.route('/getalbum')
+  app.route('/listallimages')
     .get(gallery.list_all_images);
     // .post(todoList.create_a_task);
 
+  app.route('/listfeaturedimages')
+    .get(gallery.list_featured_images);
 
   // app.route('/tasks/:taskId')
   //   .get(todoList.read_a_task)

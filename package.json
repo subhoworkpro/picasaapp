@@ -25,6 +25,7 @@
     "nodemon": "^1.12.1"
   },
   "dependencies": {
+    "cloudinary": "^1.9.1",
     "express": "^4.16.2",
     "picasa": "^1.0.6"
   }
